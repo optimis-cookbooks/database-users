@@ -16,4 +16,4 @@ recipe            'database-users::users', 'Configures DB users.'
   supports os
 end
 
-depends 'mysql'
+depends 'database'

@@ -1,4 +1,4 @@
-include_recipe 'mysql::server'
+include_recipe 'database'
 
 name = node.name
 configuration = data_bag_item 'database', name
